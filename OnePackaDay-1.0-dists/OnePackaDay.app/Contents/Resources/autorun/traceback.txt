@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 266, in script
+    phillip "HUSTLE THAT THING FOR MEEE"
+Exception: Sayer 'phillip' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 266, in script
+    phillip "HUSTLE THAT THING FOR MEEE"
+  File "/Users/noor/Documents/1PackADay-v2/OnePackaDay-1.0-dists/OnePackaDay.app/Contents/Resources/autorun/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/Users/noor/Documents/1PackADay-v2/OnePackaDay-1.0-dists/OnePackaDay.app/Contents/Resources/autorun/renpy/ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/noor/Documents/1PackADay-v2/OnePackaDay-1.0-dists/OnePackaDay.app/Contents/Resources/autorun/renpy/ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'phillip' is not defined.
+
+macOS-15.5-arm64-arm-64bit arm64
+Ren'Py 8.3.7.25031702
+One Pack a Day 1.0
+Thu May 29 21:10:03 2025
